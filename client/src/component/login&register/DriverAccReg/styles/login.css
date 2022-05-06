@@ -1,0 +1,66 @@
+body{
+    background-image: url('../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width: 900px) {
+    .leftComp {
+        padding-top: 80px;
+        width: 40%;
+        background: rgb(61, 121, 162);
+        background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+        color: aliceblue;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .righttComp {
+        width: 60%;
+        color: #2196F3;
+        font-family:  "Times New Roman", Times, serif;
+        border: solid 1px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-color: #2196F3;
+        background-color: aliceblue;
+    }
+    body{        
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 900px) {
+    /*0-600px*/
+    .leftComp {
+        margin: 20px;
+        background: rgb(61, 121, 162);
+        background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+        color: aliceblue;
+        border-radius: 25px;
+    }
+    .righttComp {
+        border: solid 1px;
+        border-radius: 25px;
+        border-color: #2196F3;
+        color: #2196F3;
+        font-family:  "Times New Roman", Times, serif;
+        background-color: aliceblue;
+    }
+}
+@media screen and (max-width: 600px) {
+    /*0-600px*/
+    .leftComp {
+        margin: 20px;
+        background: rgb(61, 121, 162);
+        background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+        color: aliceblue;
+        border-radius: 25px;
+    }
+    .righttComp {
+        border: solid 1px;
+        border-radius: 25px;
+        border-color: #2196F3;
+        color: #2196F3;
+        font-family:  "Times New Roman", Times, serif;
+    }
+    
+}
